@@ -1,0 +1,50 @@
+#login{
+  display: flex;
+  align-items: center;
+  height:640px
+}
+
+#login p a{
+
+  text-decoration: none;
+}
+
+#signup{
+  display: flex;
+  align-items: center;
+  height:640px
+}
+
+#signup p a{
+
+  text-decoration: none;
+}
+
+#head{
+  background: linear-gradient(to right, orange, aqua);
+  padding: 10px 0px;
+}
+
+#head button{
+
+  float: right;
+}
+
+#foot{
+  background: linear-gradient(to right, yellow, aqua);
+  text-align: center;
+  font-weight: 500;
+  color: red;
+}
+
+#mid{
+
+  height: 2050px;
+  
+}
+
+
+#frontend{
+
+  height: 800px;
+}

@@ -1,0 +1,27 @@
+###
+POST http://localhost:5000/api/signup
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"123"
+}
+
+###login api
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "username":"bri",
+    "password":"123"
+}
+
+###product display api
+GET http://localhost:5000/api/displayproduct
+
+###display single product by id
+
+GET http://localhost:5000/api/singleproduct/681f51425dda13b92e62e2a2
+
+###inststock api only
+GET http://localhost:5000/api/instock
